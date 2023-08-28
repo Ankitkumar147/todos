@@ -1,0 +1,53 @@
+.nav-item:hover {
+    color: #1c1b1b;
+    background-color: #eef4f1;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+  }
+
+  .navbar-brand:hover{
+    text-shadow: #1c1b1b;
+    background-color: #a7f3de;
+    border-radius: 15px;
+    width: 95px; 
+  }
+
+  .header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .login-button {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navbar {
+    background-color: rgb(235, 241, 214);
+  }
+
+  .display-4 {
+    color: rgb(85, 67, 53); 
+    text-decoration: solid;
+    font-size: 200%;
+    font-weight: bolder;
+  }
+
+  .lead{
+    color: #060804;
+    text-decoration: solid;
+    font-size: 180%;
+    left: 30%;
+    font-weight: bold;
+  }
+
+ .jumbotron{
+    padding-top: 18%;
+    text-align: left;
+ }
+
+
+
+
+

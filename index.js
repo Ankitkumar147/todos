@@ -4,6 +4,7 @@ import helmet from "helmet";
 import requestIp from 'request-ip';
 import 'dotenv/config';
 
+
 import config from './config/config.js';
 console.log( config.get() );
 
@@ -16,8 +17,8 @@ app.use( '/public', express.static( 'public' ) );
 app.use( helmet() );
 app.use( requestIp.mw() );
 
-app.get("/", (req, res) => {
-    res.send("Hello world!");
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/public/homepage.html');
 });
 
 app.listen( 3000, () => console.log( 'Server started' ) );

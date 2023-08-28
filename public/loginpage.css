@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    background-color: #ffff;
+    padding: 10%;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .login-button,
+  .signup-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .input-fields  {
+    display: none;
+    margin-top: 20px;
+  }
+  .input-fields input {
+    width: 100%;
+    padding: 4px;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .home-button {
+    margin-top: 20px;
+  }
+
+  .home-button a {
+    display: inline-block; /* Display as a block-level element */
+    text-decoration: none; /* Remove underlines from the link */
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
