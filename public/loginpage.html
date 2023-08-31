@@ -8,24 +8,49 @@
   <script  type="module" src="loginservices.js"></script>
 </head>
 <body>
+  <!-- <div class="container"> 
+     <h1>Welcome to Open Task</h1>
+     <p>Please select an option:</p>
+    <div class="table-container">
+      <div class="table-row">
+        <a class="table-cell table-header" href="#">Login</a>
+        <a class="table-cell table-header" href ="#">Sign Up</a>
+      </div>
+       <div class="table-row">
+        <div class="table-cell">
+        Login content here 
+      </div>
+      <div class="table-cell">
+       Sign Up content here
+      </div>
+    </div> 
+  </div>
+</div> -->
   <div class="header">
     <!-- Blank header, you can add any content you want here -->
   </div>
   <div class="container">
     <h1>Welcome to Open Task</h1>
-    <p>Please select an option:</p>
-    <a href="#" class="login-button">Login</a>
-    <a href="#" class="signup-button">Sign Up</a>
-    <div class="input-fields">
-        <input type="email" placeholder="Email">
-        <input type="password" placeholder="Password">
-        <div class="forgot-password">
-            <a href="#" class="forgot-password-button">Forgot Password</a>
+      <p>Please select an option:</p>
+          <a href="#" class="login-button">Login</a>
+          <a href="#" class="signup-button">Sign Up</a> 
+        <div class="input-fields login-input-fields">
+          <input type="email" placeholder="Email">
+          <input type="password" placeholder="Password">
+            <div class="forgot-password">
+              <a href="#" class="forgot-password-button">Forgot Password</a>
+            </div>
         </div>
+        <div class="input-fields signup-input-fields hidden">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="email" placeholder="Email">
+            <input type="date" placeholder="DOB">
+            <input type="password" placeholder="Password">
+        </div>
+        <div class="home-button">
+            <a href="homepage.html" class="btn btn-primary">Home</a>
+        </div> 
     </div>
-    <div class="home-button">
-        <a href="homepage.html" class="btn btn-primary">Home</a>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
